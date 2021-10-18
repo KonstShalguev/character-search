@@ -1,0 +1,35 @@
+.not-found {
+  margin: 0 auto;
+  height: 374px;
+  background: #F5F6F7;
+  padding-top: 80px;
+
+  &__img {
+    background-image: url(../../images/not-found.svg);
+    background-position: center;
+    background-size: cover;
+    max-width: 96px;
+    min-height: 96px;
+    margin: 0 auto;
+  }
+
+  &__title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+    color: #1A1B22;
+  }
+
+  &__text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #B6BCBF;
+    max-width: 300px;
+    margin: 15px auto 0 auto;
+  }
+}
